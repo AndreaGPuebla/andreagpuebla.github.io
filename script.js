@@ -19,17 +19,16 @@ switch (ciudad.toLocaleLowerCase()) {
 /* Boton Whatsapp*/
 
 document.getElementById('whatsappButton').addEventListener('click', function() {
-    const phoneNumber = '543412732531'; 
-    const message = 'Hola Tienda Mistica!, tengo una consulta,'; 
+    const phoneNumber = '3412732531'; 
+    const message = 'Hola Mistica! Tengo una consulta.'; 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     window.open(whatsappUrl, '_blank');
 }); 
 
 window.addEventListener('beforeunload', function(event) {
-    const message = '¿Estás seguro de que quieres salir?';
+    const message = ' Estas abandonando la pagina, ¿Estás seguro?';
     event.preventDefault();  
     event.returnValue = message; 
     return message;
 });
-
