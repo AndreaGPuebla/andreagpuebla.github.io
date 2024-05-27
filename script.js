@@ -16,7 +16,7 @@ switch (ciudad.toLocaleLowerCase()) {
         break;
 }
 
-/* Boton Whatsapp*/
+/* Boton Whatsapp
 
 document.getElementById('whatsappButton').addEventListener('click', function() {
     const phoneNumber = '3412732531'; 
@@ -31,4 +31,4 @@ window.addEventListener('beforeunload', function(event) {
     event.preventDefault();  
     event.returnValue = message; 
     return message;
-});
+});*/
