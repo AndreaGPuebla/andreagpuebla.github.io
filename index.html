@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--BOOSTRAP CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <meta name="description"
+    content="Comprá productos de Salud y Belleza por internet. Tenemos ¡Últimas unidades!, ediciÓn limitada y más. Hacé tu pedido y pagalo online.">
+  <!--Esta etiqueta meta lo vi en otra pagina y creia que era lo que aparece cuando te muestra la busqueda en google, pero nose-->
+  <title>Mistica - Tienda Holistica</title>
+</head>
+
+<body>
+
+  <header>
+    <!--Header/Navbar-->
+    <!--Navegador celular / boostrap -->
+    <div id="nav-celu">
+      <nav class="navbar navbar-expand-lg bg-body-transparent h-30" id="nav-celu">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="index.html" id="volverarriba">
+            <img src="imagenes/Logo/logo-reducido.png" alt="Logo-Mistica" width="100" height="100"></a>
+          <button class="navbar-toggler p-4" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link active fs-5" aria-current="page" href="index.html">INICIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-5" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fs-5" href="productos.html#velas-prod">Velas</a></li>
+                  <li><a class="dropdown-item fs-5" href="productos.html#cris-prod">Cristales</a></li>
+                  <li><a class="dropdown-item fs-5" href="productos.html#sau-prod">Sahumerios</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="horarios.html#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="blog.html">Blog</a>
+              </li>
+
+            </ul>
+            <form class="d-flex  w-50 " role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="conteiner banner span12">
+      <a href="tienda.html" class="banner">
+        10% off en transferencias / 3 cuotas sin interés / ENVÍOS GRATIS en compras de $50.000 o más
+      </a>
+    </div>
+    <div id="navegador-des">
+      <nav class="conteiner-nav">
+
+        <form class="buscador">
+          <input class="searcharea" type="search" placeholder="Buscar" aria-label="Buscar">
+          <button class="botonbuscar" type="submit">BUSCAR</button>
+        </form>
+        <button type="button" class="carrito">CARRITO</button>
+
+      </nav>
+      <div>
+        <a class="navbar-brand" href="index.html" id="volverarriba">
+          <img src="./imagenes/Logo/MÍSTICA.png" alt="Logo-Mistica" class="imgnav">
+        </a>
+      </div>
+
+
+      <nav id="navegador-des">
+        <div class="conteiner-menu">
+          <ul class="ul-nav">
+            <li class="li-nav"><a href="productos.html" class="menu" target="_blank">PRODUCTOS</a>
+            <li class="li-nav"><a href="horarios.html#comocomprar" class="menu" target="_blank">¿CÓMO COMPRAR?</a></li>
+            <li class="li-nav"><a href="contacto.html" class="menu" target="_blank">CONTACTO</a></li>
+            <li class="li-nav"><a href="blog.html" class="menu" target="_blank">BLOG</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+  </header>
+  <main>
+    <!--MAIN INDEX-->
+    <!--Carrusel-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="10000">
+          <img src="./imagenes/Slide/slide1.jpg" class="d-block  w-100 h-70 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/Slide/slide2.jpg" class="d-block w-100 h-70 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/Slide/slide3.jpg" class="d-block w-100 h-70 img-fluid" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./imagenes/Slide/slide4.jpg" class="d-block w-100 h-70 img-fluid" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Texto separador de imagenes-->
+    <div class="txtindex">
+      <p class="txt1"> 3 CUOTAS SIN INTERES</p>
+      <p class="txt2"> 10% DE DESCUENTO CON TRANSFERENCIA</p>
+      <p class="txt3">ENVIO GRATIS DESDE $50.000</p>
+      <p class="txt4">ENVIO GRATIS DENTRO DE SAN NICOLAS</p>
+    </div>
+
+    <!--Cards-->
+    <!--La estructura de las cards las arme partiendo del boostrap, termine eliminandole clases para no estar limitada a la personalizacion de paleta de colores en particular del boostrap-->
+    <div class="cardmainindex">
+      <!--card1-->
+      <div class="card card1">
+       
+        <div id="img-cel-card">
+          <img src="./imagenes/Card/velas.png" alt="Velas">
+        </div>
+        <div class="card-body">
+          <h5 class="titulocard">VELAS</h5>
+          <p class="textocard">En esta seccion vas a encontar velas.</p>
+          <a href="productos.html#velas-prod" class="botoncard">Ver mas</a>
+        </div>
+      
+      </div>
+
+      <!-- card2-->
+      <div class="card card2">
+        <img src="./imagenes/Card/sahumerios.png" alt="Sahumerios">
+        <div class="card-body">
+          <h5 class="titulocard">SAHUMERIOS</h5>
+          <p class="textocard">En esta seccion vas a encontar sahumerios.</p>
+          <a href="productos.html#sau-prod" class="botoncard">Ver mas</a>
+        </div>
+      </div>
+      <!-- card3-->
+
+      <div class="card card3">
+        <img src="./imagenes/Card/cristales.png" alt="Cristales">
+        <div class="card-body">
+          <h5 class="titulocard">CRISTALES</h5>
+          <p class="textocard">En esta seccion vas a encontar cristales.</p>
+          <a href="productos.html#cris-prod" class="botoncard">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Boton volver arriba-->
+    <div class="boton-arriba">
+      <a href="#volverarriba" id="botonarriba">
+        <img src="./imagenes/icon/volverarriba.png" alt="boton-subir" class="botonarriba">
+      </a>
+
+    </div>
+  </main>
+
+  <!--FOOTER-->
+  <footer>
+
+    <div class="linea1">
+      <div class="fot1 navegacionfooter">
+        <h4 class="footer-title font-body text-uppercase">Navegación</h4>
+        <ul id="navfooter">
+          <li><a href="contacto.html" class="footer-li" target="_blank">
+              Contacto</li>
+          </a>
+          <li><a href="horarios.html#hr" class="footer-li" target="_blank">
+              Horarios de atencion</li>
+          </a>
+          <li><a href="horarios.html#comocomprar" class="footer-li" target="_blank">
+              Preguntas frecuentes</li>
+          </a>
+        </ul>
+      </div>
+      <div class="fot2 mediopagos">
+        <h4 class="footer-title font-body text-uppercase">Medios de pago</h4>
+        <ul id="navfooter">
+          <li class="footer-li">Visa</li>
+          <li class="footer-li">Mastercard</li>
+          <li class="footer-li">American Express</li>
+          <li class="footer-li">Transferencias</li>
+          <li class="footer-li">Mercado Pago</li>
+        </ul>
+
+      </div>
+      <div class="fot3 envios">
+        <h4 class="footer-title font-body text-uppercase">Formas de envío</h4>
+        <ul id="navfooter">
+          <li class="footer-li">Correo Argentino</li>
+          <li class="footer-li">Correo Andreani</li>
+          <li class="footer-li">OCA</li>
+        </ul>
+      </div>
+      <div class="fot4 contactanos">
+        <h4 class="footer-title font-body text-uppercase contactanos-fot">Contactanos</h4>
+        <ul id="cont-foot">
+          <li><a href="mailto:contacto@tiendamistica.com.ar" class="footer-li"><img
+                src="./imagenes/icon/png sin fondo/mail.png" alt="" id="icono">contacto@tiendamistica.com.ar</a></li>
+          <li><a href="https://wa.me/3412732531" class="footer-li"><img src="./imagenes/icon/png sin fondo/whatsapp.png"
+                alt="" id="icono">+54 341 2732531</a></li>
+          <li><a href="www.facebook.com" class="footer-li"><img src="./imagenes/icon/png sin fondo/ubicacion.png" alt=""
+                id="icono">San Nicolás</a></li>
+        </ul>
+
+      </div>
+      <div class="bloque-nw">
+        <div class="fot6 nws">
+          <h4 class="footernw font-body text-uppercase">SUBSCRIBIRTE A NUESTRO NEWSLETTER Y ENTERATE DE TODAS LAS PROMOS
+            Y
+            NOVEDADES!</h4>
+          <form action="" class="inputemail"><input class="formemail" type="email" placeholder="Email"
+              aria-label="mail">
+            <button class="btnemail" type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="fot5 redes">
+          <h4 class="footer-title font-body text-uppercase redes-nw">Seguinos en redes</h4>
+          <ul id="redes">
+            <li><a href="https://www.instagram.com" target="_blank" class="footredes ig">
+                <img src="./imagenes/icon/png sin fondo/instagram.png" alt="" id="icono">
+              </a>
+            </li>
+            <li><a href="https://www.facebook.com" class="footredes fb" target="_blank">
+                <img src="./imagenes/icon/png sin fondo/facebook.png" alt="" id="icono">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <h6 class="copy">COPYRIGHT ANDREA PUEBLA- 2024. TODOS LOS DERECHOS RESERVADOS. </h6>
+  </footer>
+
+  <!--BOOSTRAP SCRIPT-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

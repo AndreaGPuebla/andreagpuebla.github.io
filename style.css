@@ -1,0 +1,1174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+} 
+/* BOTON ARRIBA */
+.botonarriba{
+    width: 15rem;
+    height: 15rem;
+}
+.boton-arriba{
+    display: flex;
+    justify-content: right;
+}
+/* ---------------------------------------------------------------- */
+body {
+    
+    color: #000;
+    font-family: pt sans narrow, sans-serif;
+    background-color: #fff;
+    font-size: 1.4rem;
+    display: grid;
+    grid-template-areas: "header"
+                        "main"
+                        "footer";
+}
+/* HEADER */
+header {
+    background-color: white;
+    width: 100%;
+}
+/* banner-negro */
+.span12 {
+    font-size: 2.5rem;
+    background-color: black;
+    height: auto;
+    padding: 10px;
+    word-wrap: break-word;
+    display: flex;
+}
+.banner {
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* NAV DESKTOP */
+#nav-celu{
+    display: none;
+}
+.conteiner-nav{
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+/* Buscar nav - Form */
+.buscador{
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content:left;
+}
+.searcharea{
+    border: gray 2px solid;
+    border-radius: .7rem;
+    height: 2.8em;
+    width: 200px;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding-left: .5rem;
+    padding-top: .5rem;
+    
+}
+.botonbuscar{
+    background-color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    border: 3px #fff solid ;
+    border-radius: 6.5px;
+    padding: 11px;
+   
+
+}
+.botonbuscar:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+}
+/* Carrito - Button */
+.carrito{
+    background-color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 3px #fff solid ;
+    border-radius: 6.5px;
+    padding: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: right;
+    margin-right: 1rem;
+    
+    
+}
+.carrito:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+}
+/* Imagen logo - A */
+.nav2, .navbar-brand{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.imgnav {
+    padding-left: 20px;
+    padding-top: 0;
+    max-height: 25vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+/* Menu de navegacion */
+.conteiner-menu{
+    display: flex;
+    font-weight: bold;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    align-items: center;
+    border-bottom:purple 2px solid;
+    border-top: purple 2px solid;
+}
+.menu{
+    padding: 2rem 4rem 2rem 4rem;
+    line-height: 7rem;
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;   
+    display: flex;
+}
+.menu:hover{
+    color:  #7d0c6a;
+ 
+ }
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.li-nav{
+    align-items: baseline;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+/*  MAIN INDEX */
+
+/* carrusel */
+/* Aca lo unico que modifique antes de cargar las imagenes al carrousel fue editar las medidas de la imagen, no tanto por estetica si no porque eran muy pesadas y me tardaba en cargar  */
+
+.carousel{
+    margin-top: 30px;
+}
+
+/* TEXTO SEPARADOR INDEX */
+.txtindex{
+    font-size: 5rem;
+    font-weight: bolder;
+    height: 20rem;
+    margin: 20rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.txt1 {
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+}
+.txt2, .txt3, .txt4{
+    padding: 30px;
+}
+.txt2{
+    border-left: #7d0c6a 2px solid;
+    border-right: #7d0c6a 2px solid;
+}
+.txt3{
+    border-right: #7d0c6a 2px solid;
+}
+/* CARDS */
+
+.cardmainindex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    justify-content: center;
+}
+.body-card{
+    padding-bottom: 1rem;
+}
+.card2{
+    margin-right: 9rem;
+    margin-left: 9rem;
+}
+.titulocard{
+    font-weight: bold;
+    font-size: 2rem;
+    color:#000;
+    padding: 1rem;
+}
+.textocard{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    padding-bottom: 5rem;
+}
+.botoncard{
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.botoncard:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* FOOTER */
+/* Generalidades */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+     
+}
+h6{
+    padding-top: 4rem;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+#navfooter {
+    padding-left: 0;
+ }
+#icono{
+    width: 4rem;
+    height: 4rem;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+.linea1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 2.5fr;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.footredes{
+    font-size: 1.8rem;
+}
+/* subtitulos */
+.footer-li{
+    list-style: none;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+    text-decoration: none;
+    color: #fff;
+}
+/* Titulos footer */
+.footer-title{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+/* ----------------------------------------------- */
+/* contactanos */
+#cont-foot{
+    margin-left: 0;
+}
+.contactanos-fot,.redes-nw{
+    padding-left: 2rem;
+}
+
+/* Bloque newsletter+redes*/
+.footernw{
+    display: flex;
+    justify-items: stretch;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+/* Formulario Newsletter */
+.nws{
+    margin-left: 2rem;
+}
+.formemail {
+    border: gray 2px solid;
+    border-radius: 7px;
+    height: 2.5em;
+    width: 30rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding-left: 1rem;
+}
+.btnemail {
+    font-size: 1.5rem;
+    background-color: #000;
+    border: #fff 2px solid;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+}
+.btnemail:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+
+}       
+.inputemail{
+    display: flex;
+    margin-bottom: 2rem;
+    
+}
+/* redes */
+#redes{
+    display: flex;
+}
+.ig, .fb{
+    margin-right: 2.5rem;
+}
+
+
+
+
+/* -------------------------------------------------------------------------------- */
+
+ /* PAGINA CONTACTO */
+
+.contacto {
+    display: grid;
+    grid-template-areas: "formulario formulario lateral";
+    grid-template-columns: 2fr 1fr;
+}
+
+/* formulario */
+.in1,
+.in2,
+.in3,
+.in4 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 3rem;
+    width: 30rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: gray 1px solid;
+}
+.in5,
+.in6 {
+    font-size: 1.5rem;
+    padding: .7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    width: 60rem;
+}
+.in6 {
+    
+    background-color: rgb(244, 243, 243);
+}
+.in7, .in8{
+   
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    width:2rem;
+    height:2rem;
+
+}
+#checkbox {
+    font-size: 1.6rem;
+    padding-left: 1rem;
+   }
+.botonesform {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.in10 {
+    font-size: 1.5rem;
+    padding: .8rem;
+    width: 20rem;
+    margin: 3rem;
+    background-color: grey;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    border: gray;
+    transition: background-color 0.3s ease;
+}
+.in10:hover {
+    background-color: red;
+
+}
+
+.in9 {
+    font-size: 1.5rem;
+    padding: .8rem;
+    width: 20rem;
+    margin: 3rem;
+    margin-left: 5rem;
+    background-color: black;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.in9:hover {
+    background-color: purple;
+    border: purple;
+}
+
+/* Texto */
+.whatsapp-btn, .mail-btn {
+    text-decoration: none;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#mailButton {
+    max-width: 30rem;
+}
+.whatsapp-logo, .mail-logo {
+    width: 4.5rem;
+    height: 4.55rem;
+    margin-right: 1rem;
+}
+.titulocont{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    padding-right: 7rem;
+}
+.parrafocont{
+    padding-right: 7vw;
+    margin-top: 2rem;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+/* PAGINA BLOG */
+
+#mainblog{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+article{
+    padding: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+    border-bottom: #b0b0b0 1px solid;
+}
+.tituloart{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+.part{
+    font-size: 2rem;
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+
+.aside-blog{
+    padding: 1rem;
+}
+
+.aside-title{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#lista-aside{
+    font-size: 2rem;
+    
+}
+#lista-aside:hover{
+    background-color: purple;
+    border: purple;
+    color: #fff;
+
+}
+/* aca le saque el subrayado a items de podrian interesarte */
+.bloga{
+    text-decoration: none;
+}
+strong{
+    font-size: 2rem;
+}
+.blog-comprar{
+    text-decoration: none;  
+    font-size: 1.8rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 1rem;
+}
+.blog-comprar:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+
+
+}
+/* PAGINA PRODUCTOS */
+
+/* Main productos */
+
+#main-prod{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#velas-prod, #cris-prod, #sau-prod{
+    display: grid;
+    border-bottom: rgb(223, 219, 219) 1px solid;
+    
+}
+#velas-prod{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.titulocard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.tit-prod{
+    font-size: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    
+}
+.cards-prod{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 5rem;
+    grid-column-gap: 1rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+    
+}
+
+/* Personalizacion de las card de productos - estas son el modelo de boostrap */
+.card-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 1.8rem;
+    text-align: justify;
+    padding: 2rem;
+}
+/* precio de la card */
+.list-group-item{
+    font-size:3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-link{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 2rem;
+    justify-content: space-evenly;
+    margin: 1rem;
+    display: flex;
+    text-align: center;
+    border-radius: 1.5rem;
+
+}
+.card-link:hover{
+    background-color: #7d0c6a;
+    color: #fff;
+
+}
+
+
+/* PAGINA HORARIOS + FAQ + MAPA  */
+
+.tabla-mapa{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #b0b0b0 1px solid;
+    margin-bottom: 6rem;
+}
+/* Titulo y parrafo horarios*/
+.horarios{
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+   
+}
+#titul-mapa-tab{
+    font-size: 2.8rem;
+}
+.texto-horario{
+    text-align: center;
+}
+
+.txt-horario{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+/* Tabla */
+.dia,.finde{
+    font-size: 3.5rem;
+    padding-bottom: 0.8rem;
+    width: 25rem;
+    text-align: left;
+    justify-items: first baseline; 
+    display: flex;
+    justify-content: center;
+}
+.dia{
+    font-weight: lighter;
+}
+.dia:hover{
+    color: #438d37;
+}
+.lunes,.sabado{
+    padding-top: 1rem;
+}
+.domingo, .viernes{
+    padding-bottom: 1rem;
+}
+#horario, #cerrado{
+    font-size: 3.5rem;
+    width: 25rem;
+    text-align: center;   
+}
+#cerrado{
+    font-weight: bold;
+}
+/* para que el fondo de sabado,domingo y cerrado tengan otro color */
+.finde, #cerrado{
+    background-color: #f7c2ff;
+}
+.finde:hover{
+    color: red;
+}
+table{
+    border: 1px solid #b0b0b0;
+
+}
+th{
+    font-size: 2rem;
+    background-color: #efeaea;
+    width: 25rem;
+    height: 8rem;
+}
+.tit-dia,.tit-hr{
+    text-align: center;
+}
+
+/* Preguntas frecuentes */
+/* titulo ppal faq */
+.titulo-faq{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.faq{
+    margin-bottom: 12rem;
+    margin-top: 10rem;
+}
+
+
+/* -------------------------------- */
+
+/*  MEDIA QUERY  */
+
+/* PANTALLAS PEQUEÑAS de 320-480px */
+@media (max-width: 480px){
+/* Nav y footer */
+#navegador-des{
+    display: none;
+}
+.span12{
+max-height: 10rem;
+font-size: 4rem;
+display: flex;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+#nav-celu{
+    display: block !important
+}
+.fot3, .fot2{
+    display: none;
+}
+
+.fot1{
+    margin-right: 0;
+}
+
+.linea1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.fot4{
+    margin-right: 4rem;
+    width: 100%;
+}
+.footer-li{
+    margin: 0;
+}
+#icono{
+    margin: 0;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.redes{
+    margin-left: 4rem;
+}
+/* Main index  */
+.d-block{
+    max-height: 70rem;
+
+}
+.txtindex{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 
+    #b0b0b0 solid 1px; 
+    margin: 2.5rem;  
+}
+.txt1, .txt2, .txt3, .txt4{padding: 0;  
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.txt2, .txt3{
+    border: none;
+}
+
+.cardmainindex{
+display: flex;
+flex-wrap: wrap;
+margin-top: 3rem;
+
+}
+.textocard{
+    display: none;
+}
+.card{
+    margin-bottom: 2rem;
+}
+
+/* PAG PRODUCTOS */
+.cards-prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 5rem;
+    margin-bottom: 2rem;
+
+}
+#velas-prod, #cris-prod, #sau-prod{
+   width: 100%;
+}
+
+/* Main Horarios */
+.tabla-mapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.faq{
+    align-items: center;
+}
+
+/* Main Contacto */
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+#formulario-contacto{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.botonesform{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.lateral{
+    width: 100%;
+    
+}
+.in1, .in2, .in3, .in4, .in5,.in6 {
+    width: 80rem;
+    
+}
+.parrafocont{
+    width: 100%;
+    padding: 5rem;
+}
+.titulocont{
+    text-align: center;
+}
+.botones-contacto{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#formulario-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main Blog */
+#mainblog{
+    
+    width: 100%;
+
+}
+.aside-blog{
+    display: none;
+}
+ }
+
+
+
+/* PANTALLAS MEDIANAS de 481 a 768px*/
+@media (min-width: 481px) and (max-width: 768px){
+
+/* Nav y footer */
+
+#navegador-des{
+    display: none;
+}
+.banner{
+
+display: flex;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+#nav-celu{
+    display: block !important;
+}
+.fot3, .fot2{
+    display: none;
+}
+
+.fot1{
+    margin-right: 0;
+}
+
+.linea1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.fot4{
+    margin-right: 4rem;
+    width: 100%;
+}
+.footer-li{
+    margin: 0;
+}
+#icono{
+    margin: 0;
+    padding-right: 1rem;
+}
+
+.redes{
+    margin-left: 4rem;
+}
+/* Main Contacto */
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+#formulario-contacto{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.botonesform{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.lateral{
+    width: 100%;
+    
+}
+.in1, .in2, .in3, .in4, .in5,.in6 {
+    width: 80rem;
+    
+}
+.parrafocont{
+    width: 100%;
+    padding: 5rem;
+}
+.titulocont{
+    text-align: center;
+}
+.botones-contacto{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#formulario-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main Productos */
+.cards-prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 5rem;
+    margin-bottom: 2rem;
+
+}
+/* Main Horarios */
+.tabla-mapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.faq{
+    align-items: center;
+}
+
+/* Main blog */
+
+.aside-blog{
+    display: none;
+}
+
+}
+@media (min-width:769) and (max-width:1343px){
+/* Nav y footer */
+#navegador-des{
+    display: none;
+}
+.span12{
+max-height: 10rem;
+font-size: 4rem;
+display: flex;
+justify-content: center;
+text-align: center;
+color: #fff;
+}
+#nav-celu{
+    display: block !important
+}
+.fot3, .fot2{
+    display: none;
+}
+
+.fot1{
+    margin-right: 0;
+}
+
+.linea1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.fot4{
+    margin-right: 4rem;
+    width: 100%;
+}
+.footer-li{
+    margin: 0;
+}
+#icono{
+    margin: 0;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.redes{
+    margin-left: 4rem;
+}
+/* Main index  */
+.d-block{
+    max-height: 70rem;
+
+}
+.txtindex{
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 
+    #b0b0b0 solid 1px; 
+    margin: 2.5rem;  
+}
+.txt1, .txt2, .txt3, .txt4{padding: 0;  
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.txt2, .txt3{
+    border: none;
+}
+
+.cardmainindex{
+display: flex;
+flex-wrap: wrap;
+margin-top: 3rem;
+
+}
+.textocard{
+    display: none;
+}
+.card{
+    margin-bottom: 2rem;
+}
+
+/* PAG PRODUCTOS */
+.cards-prod{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 5rem;
+    margin-bottom: 2rem;
+
+}
+#velas-prod, #cris-prod, #sau-prod{
+   width: 100%;
+}
+
+/* Main Horarios */
+.tabla-mapa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.faq{
+    align-items: center;
+}
+
+/* Main Contacto */
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+#formulario-contacto{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.botonesform{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.lateral{
+    width: 100%;
+    
+}
+.in1, .in2, .in3, .in4, .in5,.in6 {
+    width: 80rem;
+    
+}
+.parrafocont{
+    width: 100%;
+    padding: 5rem;
+}
+.titulocont{
+    text-align: center;
+}
+.botones-contacto{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#formulario-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main Blog */
+#mainblog{
+    
+    width: 100%;
+
+}
+.aside-blog{
+    display: none;
+}
+ }
